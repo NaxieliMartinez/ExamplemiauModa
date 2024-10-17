@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miau Moda: Tienda de camisetas con estampados de gatos únicos para hombres y mujeres. Compra productos exclusivos de calidad.">
+    <meta name="keywords" content="camisetas de gatos, moda de gatos, camisetas únicas, tienda online de gatos, ropa de gatos">
+    <meta name="author" content="Miau Moda">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Miau Moda: Camisetas con estampados de gatos únicos</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-XXXXX-Y');
+    </script>
+
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(23, 210, 252);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ee27b6;
+            margin: 0;
+            background-color:black;
+        }
+
+        .container {
+            max-width: 2500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fefefe;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .product:hover {
+            transform: translateY(-15px);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .product h2 {
+            font-size: 1.5rem;
+            margin: 10px;
+            color: #6c0478;
+            text-align: center;  
+        }
+
+        .product p:not(.price) {
+            font-size: 1rem;
+            margin: 10px;
+            color: #666;
+            text-align: justify;
+        }
+
+        .price {
+            font-size: 1.25rem;
+            margin: 10px;
+            color: #a507e4;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .buy-now {
+            display: block;
+            background-color: #9b59b6;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .buy-now:hover {
+            background-color: #8e44ad;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #9b59b6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .product h2 {
+                font-size: 1.25rem;
+            }
+
+            .product p {
+                font-size: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Miau Moda: Camisetas con estampados de gatos únicos</h1>
+    </header>
+
+    <div class="container">
+        <h2>Productos destacados</h2>
+        <div class="products">
+            <!-- Producto 1 -->
+            <div class="product">
+                <img src="https://i.imgur.com/9CQ8U3K.jpeg" alt="Camiseta de gato para hombre estilo clásico">
+                <h2>Camiseta Gato Estilo Clásico - Hombre</h2>
+                <p>Camiseta para hombre con un diseño de gato elegante en fondo negro. Ideal para amantes de los felinos.</p>
+                <p class="price">$25.00</p>
+                <a class="buy-now" href="https://wa.me/123456789?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Gato%20Estilo%20Clásico%20para%20hombre">Comprar ahora</a>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="product">
+                <img src="https://i.imgur.com/9CQ8U3K.jpg" alt="Camiseta de gato para hombre estilo urbano">
+                <h2>Camiseta Gato Estilo Urbano - Hombre</h2>
+                <p>Moderna camiseta con diseño de gato elegante e imponente, en colores nebulosos vibrantes. Perfecta para un look casual.</p>
+                <p class="price">$30.00</p>
+                <a class="buy-now" href="https://wa.me/123456789?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Gato%20Estilo%20Urbano%20para%20hombre">Comprar ahora</a>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="product">
+                <img src="https://i.imgur.com/vkvoolP.jpg" alt="Camiseta de gato para mujer estilo minimalista">
+                <h2>Camiseta Gato Minimalista - Mujer</h2>
+                <p>Esta camiseta para mujer presenta un diseño minimalista de un gato blanco elegante en tonos suaves. Un estilo clásico único.</p>
+                <p class="price">$28.00</p>
+                <a class="buy-now" href="https://wa.me/123456789?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Gato%20Minimalista%20para%20mujer">Comprar ahora</a>
+            </div>
+
+            <!-- Producto 4 -->
+            <div class="product">
+                <img src="https://i.imgur.com/vkvoolP.jpg" alt="Cam isvsdfsdfsdeta de gato para mujer con ilustración artística">
+                <h2>Camiseta Gato Artística - Mujer</h2>
+                <p>Camiseta para mujer con una ilustración de gato en estilo artístico. Ideal para las amantes del arte y los gatos.</p>
+                <p class="price">$32.00</p>
+                <a class="buy-now" href="https://wa.me/123456789?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Gato%20Artística%20para%20mujer">Comprar ahora</a>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="product">
+                <img src="https://i.imgur.com/vkvoolP.jpg" alt="Camiseta unisex con estampado de gato geométrico">
+                <h2>Camiseta Gato Geométrico - Unisex</h2>
+                <p>Camiseta unisex con un diseño geométrico de gato, disponible en varias tallas. Estilo moderno para todos.</p>
+                <p class="price">$29.00</p>
+                <a class="buy-now" href="https://wa.me/123456789?text=Hola,%20quiero%20comprar%20la%20Camiseta%20Gato%20Geométrico%20Unisex">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contacto: miau.moda@example.com | Tel: +123 456 789</p>
+        <p>Síguenos en 
+            <a href="https://www.facebook.com/miau.moda" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com/miau.moda" target="_blank">Instagram</a> | 
+            <a href="https://twitter.com/miau.moda" target="_blank">Twitter</a>
+        </p>
+    </footer>
+
+    <!-- Stripe Payment Integration -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <script>
+        // Evento de Google Analytics para el botón de compra
+        document.querySelectorAll('.buy-now').forEach(function(button) {
+            button.addEventListener('click', function() {
+                gtag('event', 'Compra', {
+                    'event_category': 'Botón Comprar Ahora',
+                    'event_label': button.href
+                });
+            });
+        });
+
+        // Stripe Payment (implementación básica, debe configurarse con el backend)
+        var stripe = Stripe('pk_test_TuClavePublicaDeStripe');
+        // Aquí irían las funciones necesarias para manejar el pago
+    </script>
+
+</body>
+</html>
